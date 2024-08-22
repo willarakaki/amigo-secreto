@@ -57,7 +57,7 @@ function fisherYatesShuffle(array) {
 
 function sortear() {
     if (amigosIncluidos.length < 4) {
-        alert('É necessário adicionar pelo menos quatro amigos para realizar o sorteio.');
+        alert('É necessário adicionar pelo menos quatro amigos para realizar o sorteio!');
         return;
     }
 
